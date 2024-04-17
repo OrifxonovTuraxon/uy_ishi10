@@ -1,0 +1,114 @@
+.services{
+    padding-top: 62px;
+    padding-bottom: 61px;
+
+}
+.services__block{
+    text-align: center;
+}
+.services__nav{
+    padding-bottom: 33px;
+}
+.services__link{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #848484;
+}
+.services__link-right{
+    color: #e47500;
+}
+.services__title{
+    font-weight: 600;
+font-size: 25px;
+line-height: 180%;
+text-align: center;
+color: #222;
+margin-bottom: 33px;
+}
+.services___text{
+    font-weight: 500;
+font-size: 12px;
+line-height: 187%;
+text-align: center;
+color: #898989;
+margin-bottom: 67px;
+}
+.services__list{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4; 
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.services__item-text{
+    width: 64px;
+height: 54px;
+    font-weight: 700;
+    text-align: start;
+font-size: 17px;
+line-height: 176%;
+color: #0b132a;
+display:inline-block ;
+span{
+    font-weight: 400;
+font-size: 14px;
+line-height: 214%;
+color: #4f5665;
+display: block;
+
+
+}
+}
+.services__item-text1::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url(../../img/services_before1.svg);
+    background-repeat: no-repeat;
+   position: relative;
+  top:50px;
+  left: -50px;
+   display: block;
+   }
+   .services__item-text2::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url(../../img/services_before2.svg);
+    background-repeat: no-repeat;
+   position: relative;
+  top:50px;
+  left: -50px;
+   display: block;
+   }
+   .services__item-text3::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url(../../img/services_before3.svg);
+    background-repeat: no-repeat;
+   position: relative;
+  top:50px;
+  left: -50px;
+   display: block;
+   }
+   @media screen and (min-width:1440px) {
+    .services__nav{
+        padding-bottom: 15px;
+    }
+    .services{
+        padding-top: 94px;
+        padding-bottom: 77px;
+    }
+    .services__list{
+        display: flex;
+        justify-content: space-between;
+    }
+   }

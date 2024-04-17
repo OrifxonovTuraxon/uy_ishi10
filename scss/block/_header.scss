@@ -1,0 +1,145 @@
+.header{
+    padding-top: 25px;
+    padding-bottom: 24px;
+    background-color: #E27708;
+  
+}
+.header__top-box{
+   
+
+    display: none;
+}
+.header__container{
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+  
+
+}
+
+.header__button{
+    width: 26px;
+    height: 21px;
+    background-image: url(../../img/header_btn.svg);
+    background-color: transparent;
+    border: none;
+}
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:24px;
+    padding-right: 24px;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.header__logo{
+    font-weight: 700;
+font-size: 20px;
+line-height: 155%;
+color: #fff;
+}
+.header__right-box{
+    display: none;
+}
+
+
+@media screen and (min-width:1440px) {
+    .header{
+        padding-top: 8px;
+        padding-bottom: 24px;
+        background-color:#fff
+    } 
+    .header__top-box{
+        display: flex;
+        justify-content: end;
+        align-items:center;
+        gap: 100px;
+        padding-right: 98px;
+        padding-bottom: 9px;
+        
+       
+        
+    }
+    .header__button{
+        display: none;
+    }
+    .header__right-box{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 68px;
+    }
+    .header__list{
+        display: flex;
+        justify-content: space-between;
+        gap: 54px;
+    }
+    .header__block{
+        background-color: #E27708;
+        padding-top: 15px;
+        padding-bottom: 13px;
+        padding-left: 60px;
+    padding-right: 60px;
+   
+    }
+    .header__link{
+        font-weight: 400;
+font-size: 16px;
+color: #fff;
+    }
+    .header__end-link{
+        font-weight: 400;
+font-size: 13px;
+color: #dc7000;
+border-radius: 6px;
+background-color:#fff;
+padding: 10px 28px 11px 27px;
+    }
+    .header__link1::before{
+        content: "";
+        width: 11px;
+        height: 11px;
+        background-color:#fff;
+        display:inline-block;
+        border-radius:  50%;
+        margin-right: 10px;
+    }
+    .header__company-address{
+        font-weight: 400;
+font-size: 10px;
+color: #1a1a1a;
+&::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(../../img/header_before1.svg);
+    background-repeat: no-repeat;
+   
+    display:inline-block;
+    border-radius:  50%;
+    margin-right: 10px;
+    
+    
+}
+    }
+    .header__tel-number{
+        font-weight: 400;
+font-size: 10px;
+color: #1a1a1a;
+&::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(../../img/header_before-top.svg);
+    background-repeat: no-repeat;
+   
+    display:inline-block;
+    border-radius:  50%;
+    margin-right: 6px;
+}
+    }
+    
+}
